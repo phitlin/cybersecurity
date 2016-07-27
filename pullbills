@@ -17,6 +17,8 @@ while word < 6:
 	
 	word = word + 1
 
+##added more words in final searches
+
 	if word == 1:
 		wordmeaning = 'cyber'
 	if word == 2:
@@ -29,8 +31,6 @@ while word < 6:
 		wordmeaning = 'malware'
 	if word == 6:
 		wordmeaning = 'spam'
-
-##added more words in final searches
 
 	print word
 	url = url + wordmeaning
