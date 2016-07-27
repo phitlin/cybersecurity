@@ -30,6 +30,8 @@ while word < 6:
 	if word == 6:
 		wordmeaning = 'spam'
 
+##added more words in final searches
+
 	print word
 	url = url + wordmeaning
 	print url
